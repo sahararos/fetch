@@ -11,6 +11,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/testing" element={<Testing />} />
+        <Route path="/fetch" element={<App />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
