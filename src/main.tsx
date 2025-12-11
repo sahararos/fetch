@@ -7,7 +7,7 @@ import Testing from './Testing.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/fetch">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/testing" element={<Testing />} />
